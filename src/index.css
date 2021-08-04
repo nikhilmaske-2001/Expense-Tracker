@@ -1,0 +1,13 @@
+#root,
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  /* Making background color black with 0.5 opacity linear-gradient */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/money.png);
+  background-size: cover;
+}
