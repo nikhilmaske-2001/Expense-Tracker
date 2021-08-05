@@ -22,7 +22,21 @@ const List = () => {
       type: "Income",
       category: "Salary",
       amount: 50,
-      date: new Date(),
+      date: "Thu Aug 5",
+    },
+    {
+      id: 2,
+      type: "Expense",
+      category: "Pets",
+      amount: 50,
+      date: "Thu Aug 5",
+    },
+    {
+      id: 1,
+      type: "Income",
+      category: "Salary",
+      amount: 50,
+      date: "Thu Aug 5",
     },
   ];
 
