@@ -12,6 +12,7 @@ import {
 
 import useStyles from "./styles";
 import { Delete, MoneyOff } from "@material-ui/icons";
+import { ExpenseTrackerContext } from "../../../context/context";
 
 const List = () => {
   const classes = useStyles();
@@ -32,7 +33,7 @@ const List = () => {
       date: "Thu Aug 5",
     },
     {
-      id: 1,
+      id: 3,
       type: "Income",
       category: "Salary",
       amount: 50,
