@@ -10,7 +10,7 @@ export const Provider = ({children}) => {
 //  An alternative to useState.
 //  useReducer is usually preferable to useState when you have
 //  complex state logic that involves multiple sub-values. 
-    const {transactions, dispatch} = useReducer(contextReducer, initialState);
+    const [transactions, dispatch] = useReducer(contextReducer, initialState);
 
     // Action Creators
     const deleteTransaction = (id) => {
@@ -20,6 +20,8 @@ export const Provider = ({children}) => {
     const addTransaction = (transaction) => {
         dispatch({type: "ADD_TRANSACTION", payload: transaction});
     } 
+    
+    console.log(transactions);
 
     return (
         <ExpenseTrackerContext.Provider value = {{deleteTransaction, addTransaction}}>
