@@ -12,7 +12,7 @@ const useTransactions = (title) => {
 
     console.log({transactionsPerType , total, categories});
 
-    transactionsPerType.filter((t) => {
+    transactionsPerType.forEach((t) => {
         const category = categories.find((c) => c.type === t.category);
 
         if(category) {
@@ -30,7 +30,7 @@ const useTransactions = (title) => {
         labels: filteredCategories.map((c) => c.type)
     }
 
-    return {filteredCategories, total, chartData}
+    return {total, chartData};
 }
 
 export default useTransactions;
