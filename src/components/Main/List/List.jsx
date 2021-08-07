@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import {
   Avatar,
   IconButton,
@@ -16,30 +16,7 @@ import { ExpenseTrackerContext } from "../../../context/context";
 
 const List = () => {
   const classes = useStyles();
-
-  const transactions = [
-    {
-      id: 1,
-      type: "Income",
-      category: "Salary",
-      amount: 50,
-      date: "Thu Aug 5",
-    },
-    {
-      id: 2,
-      type: "Expense",
-      category: "Pets",
-      amount: 50,
-      date: "Thu Aug 5",
-    },
-    {
-      id: 3,
-      type: "Income",
-      category: "Salary",
-      amount: 50,
-      date: "Thu Aug 5",
-    },
-  ];
+  const { deleteTransaction, transactions } = useContext(ExpenseTrackerContext);
 
   return (
     <MUIList dense={false} className={classes.list}>
