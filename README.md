@@ -17,6 +17,13 @@ Try this app: [Expense Tracker App](https://expense-tracker-made-with-speechly.n
 - [uuid](https://www.npmjs.com/package/uuid) - Create unique Id library
 - [react-chartjs-2](https://www.npmjs.com/package/react-chartjs-2) - Show data in chart library
 
+# Features
+- Voice Recognition and Voice to text conversion
+- Fast and accurate voice interaction with app
+- Show data in chart form for easy understanding
+- Various error management to prevent app crashes
+- Local Storage support (Don't worry about data lost, data will be stored in local storage)
+
 # Speechly config
 
 ```
