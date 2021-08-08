@@ -103,6 +103,7 @@ const Form = () => {
         createTransaction();
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [segment]);
 
   const selectedCategories =
