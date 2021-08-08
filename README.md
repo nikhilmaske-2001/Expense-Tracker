@@ -9,6 +9,14 @@ User can control the app using keyboard as well as voice.
 
 Try this app: [Expense Tracker App](https://expense-tracker-made-with-speechly.netlify.app/)
 
+# Build using
+- [ReactJS](https://reactjs.org/) - JavaScript Framework
+- [Context API](https://reactjs.org/docs/context.html) - For state management
+- [Material UI](https://material-ui.com/) - UI library
+- [Speechly](https://www.speechly.com/) - Voice Recognition API
+- [uuid](https://www.npmjs.com/package/uuid) - Create unique Id library
+- [react-chartjs-2](https://www.npmjs.com/package/react-chartjs-2) - Show data in chart library
+
 # Speechly config
 
 ```
