@@ -24,6 +24,10 @@ Try this app: [Expense Tracker App](https://expense-tracker-made-with-speechly.n
 - Various error management to prevent app crashes
 - Local Storage support (Don't worry about data lost, data will be stored in local storage)
 
+# Screenshots
+![image](https://user-images.githubusercontent.com/59444243/128634357-e624bec9-48c9-4238-ba7b-aacf2065b4c0.png)
+
+
 # Speechly config
 
 ```
